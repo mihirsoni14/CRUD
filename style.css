@@ -1,0 +1,165 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(104, 100, 100);
+    padding-top: 80px;
+    border-bottom: 1px solid #cfcbcb;
+
+}
+
+nav .logo{
+    color: rgb(112, 112, 194);
+    font-family: cursive;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    list-style: none;
+    padding-right: 50px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 15px;
+    color: inherit;
+}
+
+nav ul li a:hover {
+    color: #4b4a4b;
+    transition: all .3s ease-out;
+}
+
+
+/* -------------------- Table ---------------------------------- */
+
+table {
+    box-shadow: 1px 1px 15px rgba(57, 57, 57, 0.152);
+    padding: 20px;
+    font-family: sans-serif;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    color: rgb(74, 71, 71);
+}
+
+thead {
+    background: #eae8ee;
+    color: rgb(39, 37, 37);
+    font-family: sans-serif;
+}
+
+table td,
+table th {
+    padding: 15px 50px;
+    text-align: center;
+}
+
+table td {
+    border-bottom: 1px solid #e8dede;
+}
+
+.action a  {
+    color: #423e42;
+    text-decoration: none   ;
+}
+.action a i {
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 20px;
+    background: #f2ecec;
+    color: #423e42;
+}
+
+/* ----------------------- Add -------------------------------- */
+
+.add h2{
+    font-family: sans-serif;
+    padding: 0px 100px;
+    color: #4b4a4b;
+}
+main .add form {
+    background: #f1eded;
+    display: flex;
+    max-width: 500px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+main .add form div {
+    width: 100%;
+    margin: 10px;
+
+}
+
+main .add form div span {
+    width: 100px;
+    display: inline-block;
+}
+
+main .add form div select {
+    width: 70%;
+    padding: 6px;
+    border: none;
+    outline: none;
+    color: #4b4a4b;
+}
+
+main .add form button {
+    padding: 10px 30px;
+    margin: 10px 0 0 115px;
+    color: white;
+    border: none;
+    background: rgb(104, 216, 104);
+}
+main .add form .blue {
+    padding: 10px 30px;
+    margin: 10px 0 0 115px;
+    color: white;
+    border: none;
+    background: rgb(130, 104, 216);
+}
+main .add form .btn-delete {
+    padding: 10px 30px;
+    margin: 10px 0 0 115px;
+    color: white;
+    border: none;
+    background: rgb(216, 124, 104);
+}
+
+main .add form div input {
+    width: 68%;
+    font-size: 18px;
+    padding: 6px;
+    border: none;
+    outline: none;
+    color: #4b4a4b;
+    overflow: hidden;
+}
+
+main .update .secondform {
+    background: #f1eded;
+    display: flex;
+    max-width: 500px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: -60px auto;
+    border-radius: 10px;
+}
